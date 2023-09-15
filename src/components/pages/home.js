@@ -1,9 +1,14 @@
 import React from "react";
+import Slider from "../slider";
+import Navbar from "../navbar";
+import WebMaster from "./webMaster";
 
 const Home = () => {
   return (
     <>
-      <h2>Home page.</h2>
+      <Navbar />
+      <Slider />
+      <WebMaster />
     </>
   );
 };
