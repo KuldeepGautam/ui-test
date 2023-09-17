@@ -3,49 +3,6 @@ import React from "react";
 const Slider = () => {
   return (
     <>
-      {/* <div id="demo" className="carousel slide" data-ride="carousel">
-        <ul className="carousel-indicators">
-          <li data-target="#demo" data-slide-to="0" className="active"></li>
-          <li data-target="#demo" data-slide-to="1"></li>
-          <li data-target="#demo" data-slide-to="2"></li>
-        </ul>
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <div
-              className="home-banne-img"
-              style={{
-                backgroundImage: `url("/assets/wcs.jpg")`,
-              }}
-            ></div>
-            <div className="carousel-caption"></div>
-          </div>
-          <div className="carousel-item">
-            <div
-              className="home-banne-img"
-              style={{
-                backgroundImage: `url("/assets/tpi.jpg")`,
-              }}
-            ></div>
-            <div className="carousel-caption"></div>
-          </div>
-          <div className="carousel-item">
-            <div
-              className="home-banne-img"
-              style={{
-                backgroundImage: `url("/assets/nos.jpg")`,
-              }}
-            ></div>
-            <div className="carousel-caption"></div>
-          </div>
-        </div>
-        <a className="carousel-control-prev" href="#demo" data-slide="prev">
-          <span className="carousel-control-prev-icon"></span>
-        </a>
-        <a className="carousel-control-next" href="#demo" data-slide="next">
-          <span className="carousel-control-next-icon"></span>
-        </a>
-      </div> */}
-
       {/* <!-- Carousel --> */}
       <div id="demo" class="carousel slide" data-bs-ride="carousel">
         {/* <!-- Indicators/dots --> */}
@@ -66,44 +23,168 @@ const Slider = () => {
             data-bs-target="#demo"
             data-bs-slide-to="2"
           ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="5"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="6"
+          ></button>
         </div>
 
         {/* <!-- The slideshow/carousel --> */}
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div
-              className="home-banne-img"
-              style={{
-                backgroundImage: `url("/assets/wcs.jpg")`,
-              }}
-            ></div>
-            <div class="carousel-caption">
-              <h3>Los Angeles</h3>
-              <p>We had such a great time in LA!</p>
+            <div class="slide-img-item">
+              <div
+                className="home-banne-img"
+                style={{
+                  backgroundImage: `url("/assets/slide1.jpg")`,
+                }}
+              ></div>
+              <div class="carousel-caption">
+                <p>AWESOME</p>
+                <h1>WEBSITE TEMPLATE</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur nemo quas obcaecati perferendis nisi molestiae cum
+                  fugit earum tempore dolor modi aspernatur at fugiat veritatis
+                  harum porro, quam voluptatem? Nisi!
+                </p>
+              </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div
-              className="home-banne-img"
-              style={{
-                backgroundImage: `url("/assets/wcs.jpg")`,
-              }}
-            ></div>
-            <div class="carousel-caption">
-              <h3>Chicago</h3>
-              <p>Thank you, Chicago!</p>
+            <div class="slide-img-item">
+              <div
+                className="home-banne-img"
+                style={{
+                  backgroundImage: `url("/assets/slide2.jpg")`,
+                }}
+              ></div>
+              <div class="carousel-caption">
+                <p>AWESOME</p>
+                <h1>WEBSITE TEMPLATE</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur nemo quas obcaecati perferendis nisi molestiae cum
+                  fugit earum tempore dolor modi aspernatur at fugiat veritatis
+                  harum porro, quam voluptatem? Nisi!
+                </p>
+              </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div
-              className="home-banne-img"
-              style={{
-                backgroundImage: `url("/assets/wcs.jpg")`,
-              }}
-            ></div>
-            <div class="carousel-caption">
-              <h3>New York</h3>
-              <p>We love the Big Apple!</p>
+            <div class="slide-img-item">
+              <div
+                className="home-banne-img"
+                style={{
+                  backgroundImage: `url("/assets/slide3.jpg")`,
+                }}
+              ></div>
+              <div class="carousel-caption">
+                <p>AWESOME</p>
+                <h1>WEBSITE TEMPLATE</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur nemo quas obcaecati perferendis nisi molestiae cum
+                  fugit earum tempore dolor modi aspernatur at fugiat veritatis
+                  harum porro, quam voluptatem? Nisi!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="slide-img-item">
+              <div
+                className="home-banne-img"
+                style={{
+                  backgroundImage: `url("/assets/slide4.jpg")`,
+                }}
+              ></div>
+              <div class="carousel-caption">
+                <p>AWESOME</p>
+                <h1>WEBSITE TEMPLATE</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur nemo quas obcaecati perferendis nisi molestiae cum
+                  fugit earum tempore dolor modi aspernatur at fugiat veritatis
+                  harum porro, quam voluptatem? Nisi!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="slide-img-item">
+              <div
+                className="home-banne-img"
+                style={{
+                  backgroundImage: `url("/assets/slide5.jpg")`,
+                }}
+              ></div>
+              <div class="carousel-caption">
+                <p>AWESOME</p>
+                <h1>WEBSITE TEMPLATE</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur nemo quas obcaecati perferendis nisi molestiae cum
+                  fugit earum tempore dolor modi aspernatur at fugiat veritatis
+                  harum porro, quam voluptatem? Nisi!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="slide-img-item">
+              <div
+                className="home-banne-img"
+                style={{
+                  backgroundImage: `url("/assets/slide6.jpg")`,
+                }}
+              ></div>
+              <div class="carousel-caption">
+                <p>AWESOME</p>
+                <h1>WEBSITE TEMPLATE</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur nemo quas obcaecati perferendis nisi molestiae cum
+                  fugit earum tempore dolor modi aspernatur at fugiat veritatis
+                  harum porro, quam voluptatem? Nisi!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="slide-img-item">
+              <div
+                className="home-banne-img"
+                style={{
+                  backgroundImage: `url("/assets/slide7.jpg")`,
+                }}
+              ></div>
+              <div class="carousel-caption">
+                <p>AWESOME</p>
+                <h1>WEBSITE TEMPLATE</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur nemo quas obcaecati perferendis nisi molestiae cum
+                  fugit earum tempore dolor modi aspernatur at fugiat veritatis
+                  harum porro, quam voluptatem? Nisi!
+                </p>
+              </div>
             </div>
           </div>
         </div>

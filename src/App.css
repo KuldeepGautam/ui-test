@@ -17,8 +17,8 @@
 }
 
 .home-banne-img {
-  background-image: linear-gradient(rgba(56, 56, 56, 0.336),
-      rgba(56, 56, 56, 0.336));
+  /* background-image: linear-gradient(rgba(56, 56, 56, 0.336),
+      rgba(56, 56, 56, 0.336)); */
   height: 88vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -26,11 +26,38 @@
   width: 100%;
 }
 
+.slide-img-item:before {
+  content: "";
+  background-image: linear-gradient(#6c9283,
+      rgba(56, 56, 56, 0.336));
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  width: 11rem !important;
+  height: 4rem !important;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 23px !important;
+  height: 20px !important;
+  border-radius: 0px !important;
+  background-color: #6c9283 !important;
+}
+
 .web-master-area {
   background: black;
   color: white;
   padding: 16px 0 16px 0;
   text-align: center;
+}
+.navbar-bg-color{
+  background-color: #6c9283;
 }
 .web-master-area>div>h3 {
 margin-bottom: 0;
