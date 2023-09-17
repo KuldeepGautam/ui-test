@@ -16,14 +16,41 @@
   color: white;
 }
 
-.home-banne-img {
-  /* background-image: linear-gradient(rgba(56, 56, 56, 0.336),
-      rgba(56, 56, 56, 0.336)); */
+.home-banner-img {
   height: 88vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+}
+
+.demo-uploaded-img {
+  height: 32vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.uploaded-img {
+  position: relative;
+}
+
+.upload-btn-area {
+  opacity: 0;
+}
+
+.uploaded-img:hover .upload-btn-area {
+  opacity: 1;
+  z-index: 5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-caption {
+  padding-bottom: 10.25rem !important;
 }
 
 .slide-img-item:before {
@@ -38,7 +65,8 @@
   right: 0;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
   width: 11rem !important;
   height: 4rem !important;
 }
@@ -51,17 +79,81 @@
 }
 
 .web-master-area {
-  background: black;
+  background: #444643;
   color: white;
-  padding: 16px 0 16px 0;
+  padding: 22px 0 22px 0;
   text-align: center;
 }
-.navbar-bg-color{
+
+.navbar-bg-color {
   background-color: #6c9283;
 }
+
 .web-master-area>div>h3 {
-margin-bottom: 0;
+  margin-bottom: 0;
+  font-size: 32px;
+  margin-bottom: 0;
+  font-weight: 800;
 }
+
 .web-master-area>div>p {
-margin-bottom: 0;
+  margin-bottom: 0;
+}
+
+.inner-container-card {
+  text-align: center;
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  padding: 16px 5px 32px 5px;
+}
+
+.inner-container-card>div>div:first-child {
+  padding: 0 0 80px 0;
+}
+
+.cards-container {
+  height: 30vh;
+}
+
+.icons {
+  font-size: 64px;
+  font-size: 64px;
+  padding: 16px;
+  border-radius: 70px;
+  background: #414340;
+  color: white;
+}
+
+.inner-container-card:hover .web-master-heading {
+  color: #5db5c3;
+}
+
+.inner-container-card:hover .icons {
+  font-size: 64px;
+  border: 22px solid white;
+  font-size: 64px;
+  padding: 16px;
+  border-radius: 70px;
+  background: #5db5c3;
+  color: white;
+  outline: 5px solid #5db5c3;
+}
+
+
+.inner-container-card>div>h3 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #444643;
+}
+
+.inner-container-card>p {
+  color: #444643;
+}
+
+.cards-main-area {
+  padding: 100px 0 100px 0;
+}
+
+.file-upload-none {
+  display: none;
 }

@@ -50,7 +50,7 @@ const Slider = () => {
           <div class="carousel-item active">
             <div class="slide-img-item">
               <div
-                className="home-banne-img"
+                className="home-banner-img"
                 style={{
                   backgroundImage: `url("/assets/slide1.jpg")`,
                 }}
@@ -70,7 +70,7 @@ const Slider = () => {
           <div class="carousel-item">
             <div class="slide-img-item">
               <div
-                className="home-banne-img"
+                className="home-banner-img"
                 style={{
                   backgroundImage: `url("/assets/slide2.jpg")`,
                 }}
@@ -90,7 +90,7 @@ const Slider = () => {
           <div class="carousel-item">
             <div class="slide-img-item">
               <div
-                className="home-banne-img"
+                className="home-banner-img"
                 style={{
                   backgroundImage: `url("/assets/slide3.jpg")`,
                 }}
@@ -110,7 +110,7 @@ const Slider = () => {
           <div class="carousel-item">
             <div class="slide-img-item">
               <div
-                className="home-banne-img"
+                className="home-banner-img"
                 style={{
                   backgroundImage: `url("/assets/slide4.jpg")`,
                 }}
@@ -130,7 +130,7 @@ const Slider = () => {
           <div class="carousel-item">
             <div class="slide-img-item">
               <div
-                className="home-banne-img"
+                className="home-banner-img"
                 style={{
                   backgroundImage: `url("/assets/slide5.jpg")`,
                 }}
@@ -150,7 +150,7 @@ const Slider = () => {
           <div class="carousel-item">
             <div class="slide-img-item">
               <div
-                className="home-banne-img"
+                className="home-banner-img"
                 style={{
                   backgroundImage: `url("/assets/slide6.jpg")`,
                 }}
@@ -170,7 +170,7 @@ const Slider = () => {
           <div class="carousel-item">
             <div class="slide-img-item">
               <div
-                className="home-banne-img"
+                className="home-banner-img"
                 style={{
                   backgroundImage: `url("/assets/slide7.jpg")`,
                 }}

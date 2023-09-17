@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "../slider";
 import Navbar from "../navbar";
 import WebMaster from "./webMaster";
+import TheBest from "./whyYouBest";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Navbar />
       <Slider />
       <WebMaster />
+      <TheBest />
     </>
   );
 };
