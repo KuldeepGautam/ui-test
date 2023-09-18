@@ -36,7 +36,7 @@ const WebMaster = () => {
                     <i class="fas icons fa-globe"></i>
                   </div>
                   <div>
-                    <h3 className="web-master-heading">Reshearch</h3>
+                    <h3 className="web-master-heading">Fully Customize</h3>
                   </div>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -52,7 +52,7 @@ const WebMaster = () => {
                     <i class="fas icons fa-globe"></i>
                   </div>
                   <div>
-                    <h3 className="web-master-heading">Reshearch</h3>
+                    <h3 className="web-master-heading">Coordination</h3>
                   </div>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -68,7 +68,7 @@ const WebMaster = () => {
                     <i class="fas icons fa-globe"></i>
                   </div>
                   <div>
-                    <h3 className="web-master-heading">Reshearch</h3>
+                    <h3 className="web-master-heading">Test</h3>
                   </div>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.

@@ -32,12 +32,27 @@
   width: 100%;
 }
 
+.cards-img-area {
+  height: 42vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  border-radius: 130px;
+}
+
 .uploaded-img {
   position: relative;
 }
 
 .upload-btn-area {
   opacity: 0;
+}
+
+.the-best-main>h3 {
+  font-size: 32px;
+  margin-bottom: 0;
+  font-weight: 800;
 }
 
 .uploaded-img:hover .upload-btn-area {
@@ -53,10 +68,35 @@
   padding-bottom: 10.25rem !important;
 }
 
+.upload-btn-area>label>i {
+  background: white;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.upload-btn-area>label {
+  display: inline-block;
+  outline: 2px solid white;
+  border-radius: 30px;
+  padding: 5px;
+}
+
 .slide-img-item:before {
   content: "";
   background-image: linear-gradient(#6c9283,
       rgba(56, 56, 56, 0.336));
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.upload-img-main:hover .uploaded-img:before {
+  content: "";
+  background-image: linear-gradient(#00000066,
+      rgb(0 0 0 / 40%));
   height: 100%;
   width: 100%;
   position: absolute;
@@ -156,4 +196,41 @@
 
 .file-upload-none {
   display: none;
+}
+
+.main-card-area{
+position: relative;
+}
+.setting-icons{
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+.setting-icons>i{
+  background: #5db1c2;
+  color: white;
+  padding: 11px;
+  border-radius: 43px;
+  font-size: 37px;
+}
+
+
+
+.cards-area-main:hover .main-card-area:before {
+  content: "";
+  background-color: #5db1c2;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+border-radius: 130px;
+}
+.cards-area-main:hover .setting-icons {
+  content: "";
+  display: none;
+}
+.heading-for-cards{
+  padding-top: 16px;
 }
